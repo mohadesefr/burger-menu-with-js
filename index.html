@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/line-awesome.min.css" />
+    <title>mini proje 21</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>menu burger</h1>
+    </header>
+
+    <main>
+      <div class="box-container">
+        <div id="burger-info">
+          <div class="img">
+            <img src="assets/back.jpg" id="img-container" alt="" />
+          </div>
+          <h2 id="name-burger"></h2>
+          <h4 id="price-burger"></h4>
+          <p id="explanation-burger"></p>
+        </div>
+
+        <div class="btn-container">
+          <div class="btn">
+            <span id="back-btn"><i class="las la-angle-left"></i></span>
+            <span id="next-btn"><i class="las la-angle-right"></i></span>
+          </div>
+
+          <button type="button" id="button" onclick="randomSelect()"> pick for me</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
